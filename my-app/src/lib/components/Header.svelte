@@ -49,11 +49,17 @@
 		border: 1px solid #000;
 		background: #FFF;
 		box-shadow: 1px 3px 0px 0px #000;
+		leading-trim: both;
+		text-edge: cap;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
 	}
 
 	.right {
 		margin-left: 16px;
-		background: #FFE500;
+		background: var(--color-button);
 	}
 </style>
 

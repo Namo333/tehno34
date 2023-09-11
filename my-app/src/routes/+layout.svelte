@@ -4,6 +4,7 @@
 	import Footer from '../lib/components/Footer.svelte';
 	import '../lib/normalize.css';
 	import '../lib/styles.css';
+	import '../lib/adaptive.css';
 </script>
 
 <div class="app">
