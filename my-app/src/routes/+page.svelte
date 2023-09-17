@@ -98,6 +98,7 @@
 		width: 100%;
 	}
 
+
 	.blockState__content{
 		display: flex;
 		align-items: center;

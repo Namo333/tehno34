@@ -35,7 +35,8 @@
     .navigation__list{
         display: flex;
         list-style: none;
-        margin-left: -40px;
+        margin: 0;
+        padding: 0;
     }
 
     .navigation__itemLink{
