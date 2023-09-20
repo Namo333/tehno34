@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Name: {data.name}</h1>
+      <h1 className="text-3xl font-bold underline">Name: {data.name}</h1>
       <h2>Age: {data.age}</h2>
       <h3>City: {data.city}</h3>
     </div>
