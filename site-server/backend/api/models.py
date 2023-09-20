@@ -1,9 +1,9 @@
 from django.db import models
 
-class Article(models.Model):
-    title = models.CharField(max_length=200)
-    body = models.TextField()
-    pub_date = models.DateTimeField('date published')
+class UserProfile(models.Model):
+    name = models.CharField(max_length=100)
+    age = models.IntegerField()
+    city = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.title
+        return self.name
