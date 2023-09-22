@@ -1,8 +1,10 @@
-import React from 'react'
+import {Header} from "./components"
 
 const App = () => (
   <div className="w-full overflow-hidden">
-    <h1>app</h1>
+    <div className="">
+        <Header />
+    </div>
   </div>
 )
 
