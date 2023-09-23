@@ -1,19 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Главная</Link>
-        </li>
-        <li>
-          <Link to="/about">О нас</Link>
-        </li>
-      </ul>
-    </nav>
-    
+    <div className="">NavMenu</div>
   )
 }
 
