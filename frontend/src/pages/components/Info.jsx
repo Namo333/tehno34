@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Info = () => (
-    <div>Info</div>
+    <div>Это блок инфо</div>
 )
 
 

@@ -7,11 +7,9 @@ const Navbar = () => (
   <header>
     <Router>
       <div>
+        <Link to="/">Logo</Link>
         <nav>
           <ul>
-            <li>
-               <Link to="/">Домой</Link>
-            </li>
             <li>
               <Link to="/about">О нас</Link>
              </li>

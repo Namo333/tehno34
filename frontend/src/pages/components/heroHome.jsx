@@ -1,7 +1,11 @@
 import React from 'react'
 
 const HeroHome = () => (
-    <div>heroHome</div>
+    <>
+        <h1>Главная страница!!!</h1>
+        <p>МЫ ТК34</p>
+    </>
+    
 );
 
 export default HeroHome
