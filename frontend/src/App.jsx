@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { Navbar } from './components';
+import { Navbar, Footer } from './components';
 
 const App = () => (
   <div className="w-full overflow-hidden">
     <Navbar />
+    <Footer />
   </div>
 )
 

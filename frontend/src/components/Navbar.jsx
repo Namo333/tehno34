@@ -1,30 +1,30 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
-import { About, Home } from '../pages';
+import { Home, About } from '../pages';
 
-const Navbar = () => {
-  return (
+const Navbar = () => (
+  <header>
     <Router>
       <div>
         <nav>
           <ul>
             <li>
-              <Link to="/">Домой</Link>
+               <Link to="/">Домой</Link>
             </li>
             <li>
               <Link to="/about">О нас</Link>
-            </li>
-          </ul>
-        </nav>
+             </li>
+           </ul>
+         </nav>
 
-        <Routes>
+         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-        </Routes>
-      </div>
-    </Router>
-  )
-}
+         </Routes>
+       </div>
+     </Router>
+  </header>
+)
 
 export default Navbar
