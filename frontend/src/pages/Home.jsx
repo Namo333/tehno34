@@ -1,8 +1,11 @@
 import React from 'react';
 
+import { HeroHome, Info } from './components';
+
 const Home = () => (
   <div>
-    <h1>Добро пожаловать на главную страницу!</h1>
+    <HeroHome />
+    <Info />
   </div>
 );
 
