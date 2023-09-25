@@ -23,6 +23,7 @@ const Navbar = () => (
        </div>
      </Router>
   </header>
+
 )
 
 export default Navbar
